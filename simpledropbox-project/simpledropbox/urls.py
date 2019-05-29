@@ -24,4 +24,7 @@ from uploads import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('upload/', views.upload, name='upload'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('signup/', views.signup, name='signup'),
+    path('deleteall/', views.deleteall, name='deleteall'),
+    path('grab/<str:fuuid>/', views.grab, name='grab'),
+] #+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
