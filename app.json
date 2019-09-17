@@ -1,9 +1,0 @@
-{
-  "name": "Simple Dropxbox",
-  "description": "File dump",
-  "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": ["python", "django" ],
-  "env": {},
-  "environments": {}
-}
